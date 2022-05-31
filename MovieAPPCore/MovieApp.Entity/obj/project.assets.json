@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj",
+      "projectUniqueName": "D:\\movieapp\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj",
       "projectName": "MovieApp.Entity",
-      "projectPath": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj",
+      "projectPath": "D:\\movieapp\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj",
       "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Entity\\obj\\",
+      "outputPath": "D:\\movieapp\\MovieAPPCore\\MovieApp.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vikas\\AppData\\Roaming\\NuGet\\NuGet.Config",

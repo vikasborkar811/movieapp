@@ -5743,11 +5743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Business\\MovieApp.Business.csproj",
+      "projectUniqueName": "D:\\movieapp\\MovieAPPCore\\MovieApp.Business\\MovieApp.Business.csproj",
       "projectName": "MovieApp.Business",
-      "projectPath": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Business\\MovieApp.Business.csproj",
+      "projectPath": "D:\\movieapp\\MovieAPPCore\\MovieApp.Business\\MovieApp.Business.csproj",
       "packagesPath": "C:\\Users\\vikas\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Business\\obj\\",
+      "outputPath": "D:\\movieapp\\MovieAPPCore\\MovieApp.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vikas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5764,11 +5764,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Data\\MovieApp.Data.csproj": {
-              "projectPath": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Data\\MovieApp.Data.csproj"
+            "D:\\movieapp\\MovieAPPCore\\MovieApp.Data\\MovieApp.Data.csproj": {
+              "projectPath": "D:\\movieapp\\MovieAPPCore\\MovieApp.Data\\MovieApp.Data.csproj"
             },
-            "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj": {
-              "projectPath": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj"
+            "D:\\movieapp\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj": {
+              "projectPath": "D:\\movieapp\\MovieAPPCore\\MovieApp.Entity\\MovieApp.Entity.csproj"
             }
           }
         }

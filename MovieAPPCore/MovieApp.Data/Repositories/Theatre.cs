@@ -58,7 +58,7 @@ namespace MovieApp.Data.Repositories
             }
         }
 
-        public object SelectThetre()
+        public object SelectTheatre()
         {
             List<TheatreModel> theatreList = _movieDBContext.theatreModels.ToList();
             return theatreList;

@@ -21,9 +21,9 @@ namespace MovieApp.Business.Service
 
         }
 
-        public Object SelectThetre()
+        public Object SelectTheatre()
         {
-            return _iTheatre.SelectThetre();
+            return _iTheatre.SelectTheatre();
         }
 
         public object findTheatreById(int id)

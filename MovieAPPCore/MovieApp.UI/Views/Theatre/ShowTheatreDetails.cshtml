@@ -27,8 +27,8 @@
           <td>@item.TheatreName</td>
            <td>@item.TheatreLocation</td>
            <td>@item.TheatreCapacity</td>
-            <td><a asp-action="EditTheatreById" asp-controller="Theatre" asp-route-UserId=@item.TheatreId>Edit</a></td>
-            <td><a asp-action="DeleteTheatreById" asp-controller="Theatre" asp-route-UserId=@item.TheatreId>Delete</a></td>
+            <td><a asp-action="EditTheatreById" asp-controller="Theatre" asp-route-TheatreId=@item.TheatreId>Edit</a></td>
+            <td><a asp-action="DeleteTheatreById" asp-controller="Theatre" asp-route-TheatreId=@item.TheatreId>Delete</a></td>
          </tr>
          }
     </tbody>

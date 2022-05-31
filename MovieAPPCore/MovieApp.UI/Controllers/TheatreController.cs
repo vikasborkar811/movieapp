@@ -144,9 +144,16 @@ namespace MovieApp.UI.Controllers
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
-                        string result = await response.Content.ReadAsStringAsync();
-                        var theatreModel = JsonConvert.DeserializeObject<TheatreModel>(result);
-                        return View(theatreModel);
+                        var result = await response.Content.ReadAsStringAsync();
+                        //var theatreModel = JsonConvert.DeserializeObject<TheatreModel>(result); // getting only single record of usermodel
+
+                        //return View(theatreModel);
+                        return View(JsonConvert.DeserializeObject<TheatreModel>(result));
+                    }
+                    else
+                    {
+                        ViewBag.status = "Error";
+                        ViewBag.message = "Wrong theatre entries!";
                     }
                 }
             }
@@ -171,7 +178,7 @@ namespace MovieApp.UI.Controllers
                     else
                     {
                         ViewBag.status = "Error";
-                        ViewBag.message = "Soory.. Unable To Update..!!";
+                        ViewBag.message = "Sorry.. Unable To Update..!!";
                     }
                 }
             }

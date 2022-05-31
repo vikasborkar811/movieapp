@@ -19,7 +19,7 @@ namespace MovieAPI.Controllers
         [HttpGet("SelectTheatre")]
         public IActionResult SelectTheatre()
         {
-            return Ok(_theatreService.SelectThetre());
+            return Ok(_theatreService.SelectTheatre());
         }
 
         [HttpPost("AddThetre")]

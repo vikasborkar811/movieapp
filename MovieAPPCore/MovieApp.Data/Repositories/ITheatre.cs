@@ -9,7 +9,7 @@ namespace MovieApp.Data.Repositories
     {
         string AddThetre(TheatreModel theatreModel);
 
-        object SelectThetre();
+        object SelectTheatre();
         string Delete(int theatreId);
         string Update(TheatreModel theatreModel);
         public object findTheatreById(int id);

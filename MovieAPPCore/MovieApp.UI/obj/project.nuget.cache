@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ou9MStfY1UPK4x7vXGIoEjngTrqSy6+kYoChgLNDqje3C8ZvVRnxeypxKQ6+8BY8q/BGs9IWgTPuLJAx5DKBVA==",
+  "dgSpecHash": "fTjDKnQHTSgJLVZ+5ASdFGfOVCeAsr7LGnr6p7mJpBVTqE/6H10CPS0S/mNQ5yid70ZCNtk4SAXiABNZIlVrlQ==",
   "success": true,
-  "projectFilePath": "D:\\DotNetPractice\\MovieAPPCore\\MovieApp.UI\\MovieApp.UI.csproj",
+  "projectFilePath": "D:\\movieapp\\MovieAPPCore\\MovieApp.UI\\MovieApp.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vikas\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\vikas\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

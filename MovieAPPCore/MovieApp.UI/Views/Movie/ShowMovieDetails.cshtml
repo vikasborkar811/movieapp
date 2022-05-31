@@ -29,8 +29,8 @@
            <td>@item.MovieDescription</td>
            <td>@item.MovieType</td>
             <td>@item.MovieLanguage</td>
-            <td><a asp-action="EditMovieById" asp-controller="Movie" asp-route-UserId=@item.MovieId>Edit</a></td>
-            <td><a asp-action="DeleteMovieById" asp-controller="Movie" asp-route-UserId=@item.MovieId>Delete</a></td>
+            <td><a asp-action="EditMovieById" asp-controller="Movie" asp-route-MovieId=@item.MovieId>Edit</a></td>
+            <td><a asp-action="DeleteMovieById" asp-controller="Movie" asp-route-MovieId=@item.MovieId>Delete</a></td>
          </tr>
          }
          </tbody>
