@@ -1,0 +1,16 @@
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\bin\Debug\netcoreapp3.1\MovieApp.Data.deps.json
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\bin\Debug\netcoreapp3.1\MovieApp.Data.runtimeconfig.json
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\bin\Debug\netcoreapp3.1\MovieApp.Data.runtimeconfig.dev.json
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\bin\Debug\netcoreapp3.1\MovieApp.Data.dll
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\bin\Debug\netcoreapp3.1\MovieApp.Data.pdb
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\bin\Debug\netcoreapp3.1\MovieApp.Entity.dll
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\bin\Debug\netcoreapp3.1\MovieApp.Entity.pdb
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.csproj.AssemblyReference.cache
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.AssemblyInfoInputs.cache
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.AssemblyInfo.cs
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.csproj.CoreCompileInputs.cache
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.csproj.CopyComplete
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.dll
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.pdb
+D:\DotNetPractice\MovieAPPCore\MovieApp.Data\obj\Debug\netcoreapp3.1\MovieApp.Data.genruntimeconfig.cache

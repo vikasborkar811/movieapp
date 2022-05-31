@@ -1,0 +1,15 @@
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.deps.json
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.dll
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Business.pdb
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Data.dll
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Entity.dll
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Data.pdb
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\bin\Debug\netcoreapp3.1\MovieApp.Entity.pdb
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.AssemblyReference.cache
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.AssemblyInfoInputs.cache
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.AssemblyInfo.cs
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.CoreCompileInputs.cache
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.csproj.CopyComplete
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.dll
+D:\DotNetPractice\MovieAPPCore\MovieApp.Business\obj\Debug\netcoreapp3.1\MovieApp.Business.pdb

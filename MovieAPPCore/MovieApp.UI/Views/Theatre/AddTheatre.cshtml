@@ -1,0 +1,37 @@
+﻿@model MovieApp.Entity.TheatreModel
+@{
+    ViewData["Title"] = "AddTheatre";
+}
+
+<h1>Add Theatre</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="Firstname">Thetre Name</label>
+        <input type="text" class="form-control" asp-for="TheatreName">
+    </div>
+    <div class="form-group">
+        <label for="Firstname">Thetre Location</label>
+        <input type="text" class="form-control" asp-for="TheatreLocation">
+    </div>
+    <div class="form-group">
+        <label for="Firstname">Thetre Capacity</label>
+        <input type="text" class="form-control" asp-for="TheatreCapacity">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Add Theatre">
+    <button type="button" class="btn btn-secondary">Reset</button>
+    <hr />
+    @if (ViewBag.status == "Ok")
+    {
+        <div class="alert alert-success">
+            @ViewBag.message
+        </div>
+    }
+    else if (ViewBag.status == "Error")
+    {
+        <div class="alert alert-danger">
+            @ViewBag.message
+        </div>
+    }
+    <hr />
+</form>

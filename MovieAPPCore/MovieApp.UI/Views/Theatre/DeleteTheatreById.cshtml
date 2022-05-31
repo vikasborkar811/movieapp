@@ -1,0 +1,44 @@
+﻿@model MovieApp.Entity.TheatreModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<div class="container">
+<form method="post">
+     <div class="form-group">
+        <label for="Firstname">ThetreId</label>
+        <input type="text" class="form-control" asp-for="TheatreId" disabled="disabled" >
+    </div>
+    <div class="form-group">
+        <label for="Firstname">ThetreName</label>
+        <input type="text" class="form-control" asp-for="TheatreName" disabled="disabled">
+    </div>
+    <div class="form-group">
+        <label for="Firstname">ThetreLocation</label>
+        <input type="text" class="form-control" asp-for="TheatreLocation" disabled="disabled">
+    </div>
+    <div class="form-group">
+        <label for="Firstname">ThetreCapacity</label>
+        <input type="text" class="form-control" asp-for="TheatreCapacity" disabled="disabled">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Confirm-Delete">
+  
+    <hr />
+    @if (ViewBag.status == "Success")
+    {
+        <div class="alert alert-success">
+            @ViewBag.message
+        </div>
+    }
+    else if (ViewBag.status == "Error")
+    {
+        <div class="alert alert-danger">
+            @ViewBag.message
+        </div>
+    }
+    <hr />
+ 
+</form>
+   </div>
