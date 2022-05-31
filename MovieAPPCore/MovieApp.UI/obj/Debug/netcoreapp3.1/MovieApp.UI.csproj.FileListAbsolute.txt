@@ -175,6 +175,7 @@ D:\DotNetPractice\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\T
 D:\DotNetPractice\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\EditMovieById.cshtml.g.cs
 D:\DotNetPractice\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\DeleteTheatreById.cshtml.g.cs
 D:\DotNetPractice\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Theatre\EditTheatreById.cshtml.g.cs
+D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.deps.json
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.runtimeconfig.json
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.runtimeconfig.dev.json
@@ -182,13 +183,6 @@ D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.exe
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\appsettings.json
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.exe
-D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.deps.json
-D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.runtimeconfig.json
-D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.runtimeconfig.dev.json
-D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.dll
-D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.pdb
-D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.Views.dll
-D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.Views.pdb
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -313,6 +307,7 @@ D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieAPI.pdb
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.Entity.pdb
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.Business.pdb
 D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.Data.pdb
+D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.csproj.AssemblyReference.cache
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.GeneratedMSBuildEditorConfig.editorconfig
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.AssemblyInfoInputs.cache
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.AssemblyInfo.cs
@@ -327,6 +322,9 @@ D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.TagHelp
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.RazorCoreGenerate.cache
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\MovieShowTime\EditMovieshowTime.cshtml.g.cs
+D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\MovieShowTime\Index.cshtml.g.cs
+D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\MovieShowTime\InsertMovieShowTime.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\AddMovie.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\DeleteMovieById.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\Movie\EditMovieById.cshtml.g.cs
@@ -342,7 +340,6 @@ D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\De
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\Register.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\User\ShowUserDetails.cshtml.g.cs
-D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.RazorTargetAssemblyInfo.cache
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.RazorTargetAssemblyInfo.cs
@@ -350,5 +347,11 @@ D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.Views.p
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.csproj.CopyComplete
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.dll
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.pdb
+D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.deps.json
+D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.runtimeconfig.json
+D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.runtimeconfig.dev.json
+D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.dll
+D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.pdb
+D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.Views.dll
+D:\movieapp\MovieAPPCore\MovieApp.UI\bin\Debug\netcoreapp3.1\MovieApp.UI.Views.pdb
 D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.genruntimeconfig.cache
-D:\movieapp\MovieAPPCore\MovieApp.UI\obj\Debug\netcoreapp3.1\MovieApp.UI.csproj.AssemblyReference.cache

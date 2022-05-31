@@ -42,6 +42,34 @@ namespace MovieApp.Data.Migrations
                     b.ToTable("movieModels");
                 });
 
+            modelBuilder.Entity("MovieApp.Entity.MovieShowTime", b =>
+                {
+                    b.Property<int>("ShowId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Date")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("MovieId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ShowTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TheatreId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ShowId");
+
+                    b.HasIndex("MovieId");
+
+                    b.HasIndex("TheatreId");
+
+                    b.ToTable("movieShowTimes");
+                });
+
             modelBuilder.Entity("MovieApp.Entity.TheatreModel", b =>
                 {
                     b.Property<int>("TheatreId")
@@ -88,6 +116,25 @@ namespace MovieApp.Data.Migrations
                     b.HasKey("UserId");
 
                     b.ToTable("userModels");
+                });
+
+            modelBuilder.Entity("MovieApp.Entity.MovieShowTime", b =>
+                {
+                    b.HasOne("MovieApp.Entity.MovieModel", "movieModel")
+                        .WithMany()
+                        .HasForeignKey("MovieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MovieApp.Entity.TheatreModel", "theatreModel")
+                        .WithMany()
+                        .HasForeignKey("TheatreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("movieModel");
+
+                    b.Navigation("theatreModel");
                 });
 #pragma warning restore 612, 618
         }

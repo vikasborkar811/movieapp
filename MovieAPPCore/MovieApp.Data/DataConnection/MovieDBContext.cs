@@ -16,5 +16,7 @@ namespace MovieApp.Data.DataConnection
         public DbSet<MovieModel> movieModels { get; set; }
 
         public DbSet<TheatreModel> theatreModels { get; set; }
+
+        public DbSet<MovieShowTime> movieShowTimes { get; set; }
     }
 }

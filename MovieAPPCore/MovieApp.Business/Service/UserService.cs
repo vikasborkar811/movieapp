@@ -43,5 +43,6 @@ namespace MovieApp.Business.Service
         {
             return _iuser.findUserById(id);
         }
+
     }
 }
