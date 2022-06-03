@@ -1,0 +1,10 @@
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\bin\Debug\netcoreapp3.1\MovieAPP.Entity.deps.json
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\bin\Debug\netcoreapp3.1\MovieAPP.Entity.dll
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\bin\Debug\netcoreapp3.1\MovieAPP.Entity.pdb
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\obj\Debug\netcoreapp3.1\MovieAPP.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\obj\Debug\netcoreapp3.1\MovieAPP.Entity.AssemblyInfoInputs.cache
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\obj\Debug\netcoreapp3.1\MovieAPP.Entity.AssemblyInfo.cs
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\obj\Debug\netcoreapp3.1\MovieAPP.Entity.csproj.CoreCompileInputs.cache
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\obj\Debug\netcoreapp3.1\MovieAPP.Entity.dll
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\obj\Debug\netcoreapp3.1\MovieAPP.Entity.pdb
+D:\MovieCoreApp\MovieCoreApplication\MovieAPP.Entity\obj\Debug\netcoreapp3.1\MovieApp.Entity.csproj.AssemblyReference.cache
