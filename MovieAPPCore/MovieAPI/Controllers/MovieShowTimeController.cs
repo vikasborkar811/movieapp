@@ -35,5 +35,11 @@ namespace MovieAPI.Controllers
         {
             return Ok(_MovieShowTimeService.findMovieShowTimeById(movieShowTimeId));
         }
+
+        [HttpDelete("DeleteMovieShowTime")]
+        public IActionResult DeleteMovieShowTime(int movieShowTimeId)
+        {
+            return Ok(_MovieShowTimeService.DeleteMovieShowTime(movieShowTimeId));
+        }
     }
 }

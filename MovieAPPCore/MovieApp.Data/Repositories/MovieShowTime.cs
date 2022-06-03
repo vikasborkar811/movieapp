@@ -15,6 +15,24 @@ namespace MovieApp.Data.Repositories
             _movieDbContext = movieDbContext;
         }
 
+        public string DeleteMovieShowTime(int movieShowTimeId)
+        {
+            string message = "";
+            var foundUser = _movieDbContext.movieShowTimes.Find(movieShowTimeId);
+            if (foundUser != null)
+            {
+                _movieDbContext.movieShowTimes.Remove(foundUser);
+                _movieDbContext.SaveChanges();
+                message = "MovieShowTime Deleted Successfully..!!";
+                return message;
+            }
+            else
+            {
+                message = "MovieShowTime Not Found..!!";
+                return message;
+            }
+        }
+
         public object findMovieShowTimeById(int movieShowTimeId)
         {
             var foundUser = _movieDbContext.movieShowTimes.Find(movieShowTimeId);

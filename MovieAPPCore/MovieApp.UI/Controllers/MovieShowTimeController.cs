@@ -148,16 +148,60 @@ namespace MovieApp.UI.Controllers
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
                         ViewBag.status = "Success";
-                        ViewBag.message = "User Updated Successfully..!!";
+                        ViewBag.message = "MovieShowTime Updated Successfully..!!";
                     }
                     else
                     {
                         ViewBag.status = "Error";
-                        ViewBag.message = "Soory.. Unable To Register..!!";
+                        ViewBag.message = "Sorry.. Unable To Register..!!";
                     }
                 }
             }
             return View();
         }
+
+        [HttpGet]
+        public async Task<IActionResult> DeleteMovieshowTimeById(int movieshowtimeId)
+        {
+            string URL = _configuration["WebApiBaseUrl"] + "MovieShowTime/findMovieShowTimeById?showid=" + movieshowtimeId;
+            using (HttpClient client = new HttpClient())
+            {
+                using (var response = await client.GetAsync(URL))
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        string result = await response.Content.ReadAsStringAsync();
+                        var movieshowtimeModel = JsonConvert.DeserializeObject<MovieApp.Entity.MovieShowTime>(result);
+                        return View(movieshowtimeModel);
+                    }
+                }
+            }
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteMovieshowTimeById(MovieApp.Entity.MovieShowTime movieShowTime)
+        {
+            //StringContent body = new StringContent(JsonConvert.SerializeObject(movieShowTime), Encoding.UTF8, "application/json");
+            string endpoint = _configuration["WebApiBaseUrl"] + "MovieShowTime/DeleteMovieShowTime";
+            using (HttpClient client = new HttpClient())
+            {
+                using (var response = await client.DeleteAsync(endpoint))
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        ViewBag.status = "Success";
+                        ViewBag.message = "MovieShowTime Updated Successfully..!!";
+                    }
+                    else
+                    {
+                        ViewBag.status = "Error";
+                        ViewBag.message = "Sorry.. Unable To Delete..!!";
+                    }
+                }
+            }
+            return View();
+        }
+
     }
 }

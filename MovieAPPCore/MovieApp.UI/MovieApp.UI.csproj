@@ -13,4 +13,8 @@
     <ProjectReference Include="..\MovieApp.Entity\MovieApp.Entity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\image\RRR.jpg" />
+  </ItemGroup>
+
 </Project>

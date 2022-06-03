@@ -14,5 +14,7 @@ namespace MovieApp.Data.Repositories
 
        
         string UpdateMovieShowTime(Entity.MovieShowTime movieShowTime);
+
+        string DeleteMovieShowTime(int movieShowTimeId);
     }
 }
